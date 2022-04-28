@@ -1,0 +1,20 @@
+.toDoList {
+    list-style: none;
+    margin: 6px;
+    padding: 10px;
+    min-width: 200px;
+}
+.toDoListItem {
+    width: 70vw;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.toDoListText {
+    flex-basis: 60%;
+}
+
+.button__wrapper {
+    display: flex;
+}

@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Overpass', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:  linear-gradient(180deg, rgba(28, 48, 52, 0.74) 0%, rgba(104, 145, 161, 0) 149.83%), url("https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"), no-repeat;
+  background-size: cover ;
+  overflow-x:hidden;
+  font-size: 20px;
+  color: white;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.link {
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: .2s opacity, background-size .3s;
+}
+
+.link:visited {
+  color: white;
+}
+
+.link:hover {
+  opacity: .7;
+  background-size: 100% 2px;
+}
+
+input {
+  width: 55vw;
+  /*width: 500px;*/
+  height: 50px;
+  opacity: 0.5;
+  border: 2px solid #BABABA;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 36px;}
+span {
+  font-size: 25px;
+  min-width: 80%;
+}

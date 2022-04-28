@@ -1,0 +1,18 @@
+.button {
+    font-size: 20px;
+    height: 50px;
+    color: white;
+    font-weight: 400;
+    background: #103870;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.buttonImportant {
+    background-color: #3cbcde;
+}
+
+.button:active {
+    background-color: blueviolet;
+
+}

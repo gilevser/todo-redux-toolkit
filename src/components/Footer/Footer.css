@@ -1,0 +1,31 @@
+.footer {
+    margin: 0;
+    display: block;
+    padding: 20px 40px;
+    font-size: 14px;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+
+}
+
+.footer__copyright {
+
+    padding-left: 50px;
+    background: #435053;
+    backdrop-filter: blur(5px);
+}
+.footer__links {
+    float: right;
+}
+
+.footer__link {
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}

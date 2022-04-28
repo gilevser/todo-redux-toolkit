@@ -1,0 +1,15 @@
+.addToDoForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enterInput {
+    margin: 30px;
+    width: 500px;
+    height: 50px;
+    opacity: 0.5;
+    border: 2px solid #BABABA;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
